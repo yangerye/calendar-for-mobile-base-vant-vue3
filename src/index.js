@@ -1,5 +1,5 @@
 // src/index.js
-import Calendar from "./Calendar.vue";
+import Calendar from './Calendar.vue'
 
-export default Calendar;
-export { Calendar };
+export default Calendar
+export { Calendar }

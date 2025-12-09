@@ -17,9 +17,11 @@ export default defineConfig({
         globals: {
           vue: 'Vue'
         },
+        inlineDynamicImports: false,
         exports: 'named'  // 🔥 明确导出
       }
-    }
+    },
+    cssCodeSplit: false
   },
   plugins: [vue()]
 })
