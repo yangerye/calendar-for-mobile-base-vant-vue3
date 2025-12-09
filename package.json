@@ -40,7 +40,8 @@
   "description": "base vant calendar component for vue3",
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.2",
-    "vite": "^7.2.7"
+    "vite": "^7.2.7",
+    "vite-plugin-libcss": "^1.1.2"
   },
   "dependencies": {
     "less": "^4.4.2",
