@@ -1,10 +1,12 @@
 {
   "name": "calendar-for-mobile-base-vant-vue3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "style": "dist/index.css",
-  "sideEffects": ["*.css"], 
+  "sideEffects": [
+    "*.css"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
