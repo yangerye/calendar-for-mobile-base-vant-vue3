@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
+  "style": "dist/index.css",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "style": "./dist/index.css"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yangerye/parking-calendar-picker.git"
